@@ -1,0 +1,261 @@
+.mesho{
+    font-weight: 700;
+
+}
+
+ul>li{
+    font-size: 16px;
+    font-weight: 400;
+    padding-left: 20px;
+    text-align: center;
+    
+}
+.container{
+    margin-top: 1rem;
+    position: fixed;
+   
+}
+.home{
+    color: black;
+    font-weight: 500;
+}
+.login{
+    background-color: orange;
+    border-radius: 5px; 
+    font-weight: 500;
+
+}
+.bottle{
+    text-align: center;
+    position: relative;
+    
+}
+.first-image{
+    
+position: absolute;
+top: -10px;
+left: 580px;
+
+   
+    
+    /* background: url(fococlipping-20220112-171258.png); */
+    /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}
+.second-image{
+    
+
+position: absolute;
+top: 250px;
+left: 560px;
+animation: aram 5s 1s both alternate;
+
+}
+
+@keyframes aram{
+ 
+    50%{
+        
+        top: 280px;
+        left: 560px;
+        left: 561px;
+    }
+    
+    100%{
+        
+        top: 310px;
+        left: 580px;
+        left:562px ;
+    }
+}
+ .circle{
+   
+    width: 170px;
+    height: 170px;
+    position: absolute;
+    left: 575px;
+    top: 83px;
+
+    border: 2px solid #000;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+ .circle{
+    animation: s-to-c 5s 1s both alternate;
+}
+.text{
+    text-align: center;
+    display: block; 
+    animation: text-editor 6s forwards;
+    
+}
+@keyframes text-editor{
+    10%{
+         font-size: 8px;
+    }
+    40%{
+          font-size: 12px;
+    }
+    70%{
+         font-size: 14px;
+    }
+    100%{
+           font-size: 15px;
+    }
+}
+
+
+
+
+
+.text>h4{
+    font-size: 30px;
+    color: rgb(10, 10, 100);
+    /* width: 300px; */
+    padding-top: 30px;
+}
+.text>p{
+    font-size: 15px;
+    padding-top: 7px;
+
+}
+.text>button{
+    padding: 5px;
+    border-radius: 4px;
+    margin-top: 24px;
+    width: 100px;
+    background-color: orange;
+    border: none;
+    font-weight: 500;
+   
+}
+
+@keyframes s-to-c{
+    0%{
+          width: 190px;
+          height: 190;
+          top:65px;
+          
+    }
+    25%{
+        width: 200px;
+        height: 200;
+        top: 60px;
+        left: 570px;
+    }
+    50%{
+        width: 240px;
+        height: 240px;
+        top: 40px;
+        left: 550px;
+    }
+    75%{
+        width: 260px;
+        height: 260;
+        top: 25px;
+        left: 535px;
+    }
+    100%{
+        width: 280px;
+        height: 280px;
+        top: 15px;
+        left: 525px;
+    }
+}
+
+
+
+
+
+.first-image{
+    animation: suh 6s linear forwards;
+    z-index: 1;
+}
+@keyframes suh{
+    0%{
+        display: none;
+    }
+    10%{
+        display: none;
+    }
+    20%{
+        top: 10px;
+    }
+    30%{
+        top: 30px;
+
+    }
+    40%{
+        top: 65px;
+    }
+    50%{
+        top: 100px;
+    }
+    60%{
+        top: 180px;
+    }
+    70%{
+        top: 210px;
+    }
+    80%{
+        top: 240px;
+    }
+    90%{
+        top: 270px;
+    }
+    100%{
+        top: 300px;
+    }
+}
+
+
+.trolly-shop{
+    width: 130px;
+    height: 40px;
+    background-color: rgb(3, 3, 90);
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    padding: 10px 5px 0px 15px;
+    font-weight: 500;
+    
+    position: fixed;
+    left: 1380px;
+    top: 640px;
+    border-radius: 8px;
+}
+.trolly-shop>p{
+    margin-left: 2px;
+    padding-left: 8px;
+}
+.trolly-shop:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+ 
+.next-page{
+    position: absolute;
+    top: 690px;
+    left: 100px;
+  }
+  .next-page button{
+    border-radius: 20px;
+    width: 200px;
+    padding: 5px 3px;
+    color: black;
+  }
+  .next-page a{
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    
+  }
+  .next-page a:hover{
+    color: #fff;
+    
+  }
+  .next-page button:hover{
+    background-image: linear-gradient(to top , blue , aqua);
+    color: #fff;
+  }

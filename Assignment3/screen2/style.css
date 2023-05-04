@@ -1,0 +1,130 @@
+body{
+    font-family: 'Homemade Apple', cursive;
+    font-size:20px;
+    width: 100%;
+    position: fixed;
+}
+.main{
+    
+    background-color: rgb(2, 28, 20);
+     height: 80vh;
+    width: 100% ;
+    margin-top: 5rem;
+  }
+  
+  ul{
+    position:absolute;
+    margin:0;
+    padding:0;
+  }
+  
+  li{
+    text-align:center;
+    display:inline-block;
+    list-style:none;
+    position:relative;
+    transition:all 1s ease;
+    -o-transition:all 1s ease;
+    -moz-transition:all 1s ease;
+    -webkit-transition:all 1s ease;
+    top:50px;
+  }
+  
+  
+  li:hover{
+    top:3px;
+    opacity:0.3;
+    
+  }
+  
+  li:nth-child(1){
+      transform:rotate(2.8deg);
+    
+      
+  }
+  
+  li:nth-child(2){
+      transform:rotate(35deg);
+      
+  }
+  
+  li:nth-child(3){
+      transform:rotate(8deg);
+      margin-left: 2rem;
+      
+  }
+  
+  li:nth-child(4){
+      transform:rotate(30deg);
+      
+  }
+  
+  p{
+    margin:-15px 0 0 0;
+  }
+  
+  .light{
+    border-radius:50%;
+    position:absolute;
+    left:0;
+    right:0;
+    width:700px;
+    height:700px;
+    filter:blur(100px);
+    opacity:0.3;
+    pointer-events:none;
+  }
+  .bottles{
+    margin-top: -8rem;
+    
+
+  }
+  .first>img{
+    margin-left: -4rem;
+    margin-top: 5rem;
+    box-shadow: 4px 4px 10px 10 rgb(171, 208, 6);
+  }
+  .second>img{
+    margin-top: 0.5rem;
+    margin-left: 4rem;
+    box-shadow: 4px 4px 10px 10 rgb(171, 208, 6);
+
+  }
+  .third>img{
+     margin-left: -8rem;
+    margin-bottom: -28rem;
+    box-shadow: 4px 4px 10px 10 rgb(171, 208, 6);
+
+  }
+  .fourth>img{
+    margin-left: 8rem;
+    box-shadow: 4px 4px 10px 10 rgb(171, 208, 6);
+
+  }
+
+  
+.next-page{
+  position: absolute;
+  top: 690px;
+  left: 100px;
+}
+.next-page button{
+  border-radius: 20px;
+  width: 200px;
+  padding: 5px 3px;
+  color: black;
+}
+.next-page a{
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 20px;
+  
+}
+.next-page a:hover{
+  color: #fff;
+  
+}
+.next-page button:hover{
+  background-image: linear-gradient(to top , blue , aqua);
+  color: #fff;
+}
